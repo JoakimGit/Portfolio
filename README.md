@@ -1,54 +1,28 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+### Features
 
-## 🚀 Quick start
+- Home page with all the different sections
+- Project details page for each portfolio item
+- Sidebar navigation with active link for the section you're reading
+- Responsive layout
 
-1.  **Create a Gatsby site.**
+### Screenshots
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+![Desktop view of home section](./images/home.JPG)
+![Mobile view of work section](./images/mobile-work.JPG)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+### Links
 
-2.  **Start developing.**
+- Live Site URL: [https://tjekmate.herokuapp.com](https://tjekmate.herokuapp.com)
 
-    Navigate into your new site’s directory and start it up.
+### Built with
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- Gatsby
+- React
+- HTML5
+- TailwindCSS
+- JavaScript
+- GraphQL
 
-3.  **Open the code and start customizing!**
+### What I learned
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+It's my first project using the Gatsby framework for React, so everything to do with that was new for me. I also learned about GraphQL for the first time which was interesting. I got another chance to try out React components and improve my capabilities there.
