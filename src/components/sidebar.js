@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Sidebar = (props) => {
+  const listRef = useRef();
+
   useEffect(() => {
-    const navbarlinks = document.querySelectorAll("nav a");
+    const navbarlinks = listRef.current.querySelectorAll("a");
 
     const navbarlinksActive = () => {
       let position = window.scrollY + 200;
@@ -19,9 +21,8 @@ const Sidebar = (props) => {
         }
       });
     };
-    navbarlinksActive();
+    // navbarlinksActive();
     document.addEventListener("scroll", navbarlinksActive);
-
     return () => {
       document.removeEventListener("scroll", navbarlinksActive);
     };
@@ -46,7 +47,7 @@ const Sidebar = (props) => {
           />
           <h1 className="hover:text-clr-light text-center text-3xl font-black">Joakim Olsen</h1>
           <a
-            className="focus:ring-clr-accent/70 text-clr-accent mt-4 mb-2 block text-center text-xl font-black hover:underline hover:opacity-75 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-offset-gray-900"
+            className="focus:ring-clr-accent/70 text-clr-accent mx-auto mt-4 mb-2 block w-fit text-center text-xl font-black hover:underline hover:opacity-75 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-offset-gray-900"
             href="mailto:jokke34@gmail.com"
           >
             Send e-mail
@@ -81,7 +82,7 @@ const Sidebar = (props) => {
           </div>
         </div>
 
-        <nav>
+        <nav ref={listRef}>
           <Link
             className="hover:text-clr-accent text-clr-accent flex items-center py-2 px-4 transition"
             to="/#home"

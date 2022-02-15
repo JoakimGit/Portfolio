@@ -47,26 +47,32 @@ const Resume = () => {
           <div className="border-clr-accent mx-auto w-3/5 max-w-[200px] border-t 2xl:w-5/6 2xl:max-w-[450px]"></div>
           <div className="2xl:grid 2xl:grid-cols-3">
             <div className="my-4 2xl:space-y-2">
-              <p className="mb-2 font-black">Beginner</p>
+              <h3 className="mb-2 font-black">Beginner</h3>
               <p>Python</p>
-              <p>Angular</p>
+              <p>Gatsby</p>
               <p>Docker</p>
               <p>Jenkins</p>
-              <p>AWS (EC2)</p>
+              <p>AWS</p>
               <p>Scrum</p>
             </div>
             <div className="my-4 2xl:space-y-2">
-              <p className="mb-2 font-black">Intermediate</p>
-              <p>Node.js</p>
-              <p>HTML</p>
-              <p>CSS</p>
+              <h3 className="mb-2 font-black">Intermediate</h3>
+              <p>React</p>
+              <p>Java</p>
+              <p>Spring boot</p>
               <p>MySQL</p>
               <p>Git</p>
+              <p>MongoDB (incl. Mongoose)</p>
             </div>
             <div className="my-4 2xl:space-y-2">
-              <p className="mb-2 font-black">Advanced</p>
-              <p>Java (incl. Spring boot)</p>
-              <p>Javascript (incl. JQuery)</p>
+              <h3 className="mb-2 font-black">Advanced</h3>
+              <p>Angular</p>
+              <p>JavaScript</p>
+              <p>NodeJS</p>
+              <p>Express</p>
+              <p>TypeScript</p>
+              <p>HTML</p>
+              <p>CSS (incl. Tailwind & Bootstrap)</p>
             </div>
           </div>
         </div>
