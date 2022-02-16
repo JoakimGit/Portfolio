@@ -5,6 +5,7 @@ import Home from "../components/home";
 import About from "../components/about";
 import Resume from "../components/resume";
 import PortfolioGrid from "../components/portfolioGrid";
+import Footer from "../components/footer";
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
         <Resume></Resume>
         <About></About>
         <PortfolioGrid></PortfolioGrid>
+        <Footer></Footer>
       </Layout>
     </div>
   );

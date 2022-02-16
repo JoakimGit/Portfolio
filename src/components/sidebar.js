@@ -9,7 +9,7 @@ const Sidebar = (props) => {
     const navbarlinks = listRef.current.querySelectorAll("a");
 
     const navbarlinksActive = () => {
-      let position = window.scrollY + 200;
+      let position = window.scrollY + 300;
       navbarlinks.forEach((navbarlink) => {
         if (!navbarlink.hash) return;
         let section = document.querySelector(navbarlink.hash);
@@ -21,7 +21,7 @@ const Sidebar = (props) => {
         }
       });
     };
-    // navbarlinksActive();
+
     document.addEventListener("scroll", navbarlinksActive);
     return () => {
       document.removeEventListener("scroll", navbarlinksActive);
