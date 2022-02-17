@@ -12,6 +12,12 @@ const Resume = () => {
           <h3 className="mb-2 text-3xl font-black">Education</h3>
           <div className="border-clr-accent mx-auto w-4/5 max-w-[350px] border-t"></div>
           <div className="my-4">
+            <p className="font-black">LogiSnap ApS (intern)</p>
+            <p>juli 2021 - sep 2021</p>
+            <p>Front-end developer</p>
+          </div>
+
+          <div className="my-4">
             <p className="font-black">Københavns erhvervsakademi</p>
             <p>2019-2022</p>
             <p>Datamatiker</p>
