@@ -57,7 +57,7 @@ const Sidebar = (props) => {
               <li>
                 <Link
                   className="bg-clr-dark focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center rounded-full text-lg focus:outline-none focus:ring"
-                  to="#"
+                  to="https://github.com/JoakimGit"
                 >
                   <i className="fa-brands fa-github"></i>
                 </Link>
@@ -65,7 +65,7 @@ const Sidebar = (props) => {
               <li>
                 <Link
                   className="bg-clr-dark focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center rounded-full text-lg focus:outline-none focus:ring"
-                  to="#"
+                  to="https://www.linkedin.com/in/joakim-n%C3%B8hr-olsen-608880209/"
                 >
                   <i className="fa-brands fa-linkedin"></i>
                 </Link>
@@ -73,7 +73,7 @@ const Sidebar = (props) => {
               <li>
                 <Link
                   className="bg-clr-dark focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center rounded-full text-lg focus:outline-none focus:ring"
-                  to="#"
+                  to="https://www.facebook.com/joakim.olsen.142"
                 >
                   <i className="fa-brands fa-facebook"></i>
                 </Link>
