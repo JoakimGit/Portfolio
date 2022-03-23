@@ -12,7 +12,7 @@
 
 ### Links
 
-- Live Site URL: [https://joakim-olsen.netlify.app/](https://tjekmate.herokuapp.com)
+- Live Site URL: [https://joakim-olsen.netlify.app/](https://joakim-olsen.netlify.app/)
 
 ### Built with
 
