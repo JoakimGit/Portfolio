@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
+import { Link } from "@tanstack/react-router";
+import { useState, useEffect } from "react";
 
 const BackToTopLink = () => {
   const [scroll, setScroll] = useState(false);

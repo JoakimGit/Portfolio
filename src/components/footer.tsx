@@ -1,4 +1,3 @@
-import * as React from "react";
 
 const Footer = () => {
   const today = new Date();

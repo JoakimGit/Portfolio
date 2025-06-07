@@ -1,5 +1,3 @@
-import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 
 const Home = () => {
   return (
@@ -13,7 +11,7 @@ const Home = () => {
       <p className="bg-clr-accent mb-4 inline-block self-start py-1 px-4 font-mono text-xl lg:relative lg:-left-6 lg:col-[-1/1] lg:row-start-2 lg:w-[calc(100%+1.5rem)] lg:text-right lg:text-2xl">
         full-stack dev
       </p>
-      <StaticImage
+      <img
         className="block min-w-[250px] max-w-[400px] shadow-lg shadow-black/30 lg:relative lg:z-10 lg:col-start-1 lg:row-span-2 lg:row-start-1"
         src="../images/Joakim-3.jpg"
         alt="Picture of Joakim"

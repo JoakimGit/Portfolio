@@ -1,8 +1,7 @@
-import React from "react";
-
 const NavToggleBtn = () => {
   const handleToggleNavbar = () => {
     const sidebar = document.querySelector("#sidebar");
+    if (!sidebar) return;
 
     if (sidebar.classList.contains("!left-0")) {
       sidebar.classList.remove("!left-0", "!w-[300px]");
