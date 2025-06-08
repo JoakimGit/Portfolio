@@ -1,81 +1,35 @@
 export const projectsData = [
   {
-    "id": 3,
-    "title": "Todo-app",
-    "subtitle": "a todo reminder",
-    "imagePath": "./todo-app.jpg",
-    "altText": "todo app",
-    "description": [
-      "This is the classic small project that everyone does. No framework was used, just plain JavaScript, HTML and CSS.",
-      "It was my first time trying to make a responsive site that also works on mobile screen sizes, as well as implementing different color themes."
-    ],
-    "tags": ["JavaScript", "HTML", "CSS", "Mobile first (responsive)"],
-    "urlName": "todo-app",
-    "liveSiteUrl": "https://todo-mentor.netlify.app",
-    "githubUrl": "https://github.com/JoakimGit/Todoapp"
-  },
-  {
-    "id": 2,
-    "title": "Tjekmate",
-    "subtitle": "a chess app",
-    "imagePath": "./tjekmate.jpg",
-    "altText": "tjekmate app",
-    "description": [
+    id: 2,
+    title: "Tjekmate",
+    subtitle: "a chess app",
+    imagePath: "./tjekmate.jpg",
+    altText: "tjekmate app",
+    description: [
       "This was my exam project for a full-stack NodeJS course. I used a third party library containing the chess logic, and then built the app around it.",
       "Most of the course was spent on NodeJS, Express and REST APIs. I then added socket logic with SocketIO for real-time updates when the players move their pieces, as well as a database through MongoDB to store data.",
-      "The addition of sockets definitely made the project a lot more difficult, but in the end I'm glad I got to try my hand as it's not an uncommon thing to utilise these days."
+      "The addition of sockets definitely made the project a lot more difficult, but in the end I'm glad I got to try my hand as it's not an uncommon thing to utilise these days.",
     ],
-    "tags": ["NodeJS", "Express", "MongoDB", "Sockets", "HTML", "CSS", "REST API"],
-    "urlName": "tjekmate",
-    "liveSiteUrl": "https://tjekmate.herokuapp.com",
-    "githubUrl": "https://github.com/JoakimGit/checkmate"
+    tags: ["NodeJS", "Express", "MongoDB", "Sockets", "HTML", "CSS", "REST API"],
+    urlName: "tjekmate",
+    liveSiteUrl: "https://tjekmate.herokuapp.com",
+    githubUrl: "https://github.com/JoakimGit/checkmate",
   },
   {
-    "id": 1,
-    "title": "Issue Hunter",
-    "subtitle": "an issue tracker",
-    "imagePath": "./issue-hunter.jpg",
-    "altText": "issue hunter app",
-    "description": [
+    id: 1,
+    title: "Issue Hunter",
+    subtitle: "an issue tracker",
+    imagePath: "./issue-hunter.jpg",
+    altText: "issue hunter app",
+    description: [
       "My final exam for the degree was this project. It involved not only building the program, but also the planning, analysis and modelling required to complete it.",
       "I opted for a MEAN stack, as I already had experience with all the technologies involved, except for TailwindCSS which I got to try for the first time, and I learned that I quite like it.",
       "An issue tracker is a commonly used piece of software, so I thought it would be a good project to complete as it has real world value, albeit not so much my system as it can't quite compete with the existing solutions on the market.",
-      "Even though I had used MongoDB a few times before this project, this was the first time I got to use Mongoose as an ORM, which I really liked."
+      "Even though I had used MongoDB a few times before this project, this was the first time I got to use Mongoose as an ORM, which I really liked.",
     ],
-    "tags": ["NodeJS", "Express", "MongoDB", "Angular", "TypeScript", "HTML", "TailwindCSS", "REST API"],
-    "urlName": "issue-hunter",
-    "liveSiteUrl": "https://issue-hunter.herokuapp.com/",
-    "githubUrl": "https://github.com/JoakimGit/IssueHunter"
+    tags: ["NodeJS", "Express", "MongoDB", "Angular", "TypeScript", "HTML", "TailwindCSS", "REST API"],
+    urlName: "issue-hunter",
+    liveSiteUrl: "https://issue-hunter.herokuapp.com/",
+    githubUrl: "https://github.com/JoakimGit/IssueHunter",
   },
-  {
-    "id": 5,
-    "title": "Motorhome Rental",
-    "subtitle": "a rental system",
-    "imagePath": "./motorhome.jpg",
-    "altText": "motorhome app",
-    "description": [
-      "My first year exam project and also the only project displayed here that was done in a group. At the time we only had experience with Java and Spring, so this webapp was created through those technologies. ",
-      "Bootstrap was used to style the app, although no one in the group had much sense for graphical design. A relational database in MySQL was used for persistance, and we employed JPA/Hibernate for ORM activities.",
-      "We were still quite new to programming at this point, so it's not a very impressive looking project, but it did do what it was supposed to do."
-    ],
-    "tags": ["Java", "Spring Boot", "JPA/Hibernate", "HTML", "Bootstrap CSS", "MySQL"],
-    "urlName": "motorhome-rental",
-    "liveSiteUrl": "",
-    "githubUrl": "https://github.com/JoakimGit/NMR-Booking"
-  },
-  {
-    "id": 4,
-    "title": "Portfolio",
-    "subtitle": "a personal portfolio",
-    "imagePath": "./portfolio.jpg",
-    "altText": "portfolio app",
-    "description": [
-      "This project was for making this very site, and allowed me to revisit React which I hadn't used in some time, although through a new framework in Gatsby.",
-      "I also employed a mobile first approach for this project in order to achieve a responsive site. TailwindCSS was once again used for the styling which I'm a fan of."
-    ],
-    "tags": ["Gatsby", "React", "HTML", "TailwindCSS", "Mobile first (responsive)"],
-    "urlName": "portfolio",
-    "liveSiteUrl": "",
-    "githubUrl": "https://github.com/JoakimGit/Portfolio"
-  }
-]
+];
