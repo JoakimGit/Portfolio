@@ -2,7 +2,7 @@ import { projectsData } from "@/projects";
 import { Link } from "@tanstack/react-router";
 
 const PortfolioGrid = () => {
-  const projects = projectsData;
+  const projects = projectsData.sort((a, b) => a.id - b.id);
 
   return (
     <section className='bg-clr-dark text-clr-light py-20 px-8 text-center' id='work'>
