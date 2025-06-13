@@ -1,4 +1,17 @@
-export const projectsData = [
+type Project = {
+  id: number;
+  title: string;
+  subtitle: string;
+  imagePath: string;
+  altText: string;
+  description: string[];
+  tags: string[];
+  urlName: string;
+  liveSiteUrl: string | null;
+  githubUrl: string;
+};
+
+export const projectsData: Array<Project> = [
   {
     id: 3,
     title: "Tjekmate",
@@ -12,7 +25,7 @@ export const projectsData = [
     ],
     tags: ["NodeJS", "Express", "MongoDB", "Sockets", "HTML", "CSS", "REST API"],
     urlName: "tjekmate",
-    liveSiteUrl: "https://tjekmate.herokuapp.com",
+    liveSiteUrl: null,
     githubUrl: "https://github.com/JoakimGit/checkmate",
   },
   {
@@ -29,7 +42,7 @@ export const projectsData = [
     ],
     tags: ["NodeJS", "Express", "MongoDB", "Angular", "TypeScript", "HTML", "TailwindCSS", "REST API"],
     urlName: "issue-hunter",
-    liveSiteUrl: "https://issue-hunter.herokuapp.com/",
+    liveSiteUrl: null,
     githubUrl: "https://github.com/JoakimGit/IssueHunter",
   },
   {
@@ -39,6 +52,7 @@ export const projectsData = [
     imagePath: "./real-kanban.png",
     altText: "Board view of app with sidebar modal open for selected task",
     description: [
+      "Demo available by clicking 'Live site'. Register with dummy login credentials (doesn't have to be a real email). Data is reset every 2 weeks.",
       "A task management app with kanban-like board. At the top level, users can create workspaces. Inside those, you create boards. Boards contains lists/columns, and you then add tasks/cards to these.",
       "The real in the name comes from the use of Convex for the backend, which promotes real-time updates with its websocket based engine. It's my first time using Convex, and it was quite enjoyable.",
       "For this project, I also decided to test out Tanstack Start, which at the time of building this app is still in beta. It's a full stack framework built on top of Tanstack Router, which I've used before, and is also my preferred routing framework for react.",

@@ -47,8 +47,10 @@ function RouteComponent() {
         </div>
 
         <div className='mx-auto mt-4 max-w-[1000px] space-y-4 px-8'>
-          {project.description.map((paragraph) => (
-            <p className='max-w-2xl text-lg'>{paragraph}</p>
+          {project.description.map((paragraph, i) => (
+            <p key={i} className='max-w-2xl text-lg'>
+              {paragraph}
+            </p>
           ))}
         </div>
       </Layout>

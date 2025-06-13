@@ -58,6 +58,8 @@ const Sidebar = () => {
                 <a
                   className=' focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center text-lg focus:outline-none focus:ring'
                   href={"https://github.com/JoakimGit"}
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   <FaGithub className='w-full h-full' />
                 </a>
@@ -66,6 +68,8 @@ const Sidebar = () => {
                 <a
                   className='focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center text-lg focus:outline-none focus:ring'
                   href={"https://www.linkedin.com/in/joakim-n%C3%B8hr-olsen-608880209/"}
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   <FaLinkedin className='w-full h-full' />
                 </a>
@@ -74,6 +78,8 @@ const Sidebar = () => {
                 <a
                   className='focus:ring-clr-accent/70 hover:text-clr-accent flex h-9 w-9 items-center justify-center text-lg focus:outline-none focus:ring'
                   href={"https://www.facebook.com/joakim.olsen.142"}
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   <FaFacebook className='w-full h-full' />
                 </a>
