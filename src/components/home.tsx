@@ -8,7 +8,7 @@ const Home = () => {
         full-stack dev
       </p>
       <img
-        className='w-full min-w-[250px]max-w-[400px] shadow-lg shadow-black/30 lg:relative lg:z-10 lg:col-start-1 lg:row-span-2 lg:row-start-1'
+        className='w-full min-w-[250px] max-w-[400px] shadow-lg shadow-black/30 lg:relative lg:z-10 lg:col-start-1 lg:row-span-2 lg:row-start-1'
         src='../images/Joakim-3.jpg'
         alt='Picture of Joakim'
       />

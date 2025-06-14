@@ -14,7 +14,7 @@ const Resume = () => {
           <div className='my-4'>
             <p className='font-black'>LogiSnap ApS (intern)</p>
             <p>juli 2021 - sep 2021</p>
-            <p>Front-end developer</p>
+            <p>Frontend developer</p>
           </div>
         </div>
 

@@ -7,19 +7,20 @@ const About = () => {
       </p>
       <div className='my-6 space-y-4 lg:row-start-3 lg:my-2'>
         <p>
-          I am 28 years old and I just finished my degree in computer science at KEA. I am well versed in both front-end as well as back-end
-          technologies. I enjoy coding and always welcome the opportunity to learn new languages or frameworks. Although I am familiar with
-          both ends of the stack, I have recently been doing mostly front-end related activities with CSS, HTML and a JavaScript framework
-          of choice, often paired with a back-end in NodeJS + Express.
+          I am 32 years old and I have been working as a software developer for over 3 years now. I am well versed in both frontend as well
+          as back-end technologies. I enjoy coding and always welcome the opportunity to learn new languages or frameworks. Most of my work
+          experience has been with frontend development, but I have been getting more into the backend and even DevOps side of things.
+          Recently, I've been responsible for the full DevOps setup of a new project, including CI/CD pipelines in Azure DevOps, resource
+          provisioning in Azure, and DNS configuration, ensuring a smooth and automated deployment from beginning.
         </p>
         <p>
           In my free time I enjoy playing Path of Exile if I'm gaming, reading comics, playing online chess, and watching livestreams on
-          twitch.tv. I've also recently started going to the gym in an attempt to get into better shape.
+          twitch.tv. I've also enjoy going to the gym, both the fitness gym, and the climbing gym.
         </p>
         <p>
           I used to study japanese at Copenhagen University and even spent one semester abroad living in Japan. Towards the end of that
           degree, I took an elective in programming and ended up liking it so much it convinced me to change studies, which lead to me
-          enrolling in the datamatiker programme at KEA.
+          enrolling in the computer science programme at KEA.
         </p>
       </div>
       <img
